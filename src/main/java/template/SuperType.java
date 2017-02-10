@@ -21,4 +21,12 @@ public abstract class SuperType implements ServiceProvide1, ServiceProvide2 {
     protected Object methodeRequise2() {
         return requis2;
     }
+
+    public void setRequis1(ServiceRequire1 service) {
+        this.requis1 = service;
+    }
+
+    public void setRequis2(ServiceRequire2 service) {
+        this.requis2 = service;
+    }
 }

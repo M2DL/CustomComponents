@@ -10,4 +10,8 @@ public abstract class AbstractBoutonPlay {
     protected void methodeRequise1() {
         this.pauseVideo.pauseVideo();
     }
+
+    public void setPauseVideo(IPauseVideo pauseVideo) {
+        this.pauseVideo = pauseVideo;
+    }
 }
