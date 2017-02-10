@@ -3,7 +3,7 @@ package lecteur.interfaces;
 /**
  * Created by seb on 10/02/17.
  */
-public class AbstractBoutonPlay {
+public abstract class AbstractBoutonPlay {
 
     IPauseVideo pauseVideo;
 

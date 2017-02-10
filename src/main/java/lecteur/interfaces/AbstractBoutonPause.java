@@ -5,7 +5,7 @@ import lecteur.interfaces.IPlayVideo;
 /**
  * Created by seb on 10/02/17.
  */
-public class AbstractBoutonPause {
+public abstract class AbstractBoutonPause {
 
     IPlayVideo playVideo;
 
