@@ -1,3 +1,5 @@
+package template;
+
 import java.util.Properties;
 
 /**

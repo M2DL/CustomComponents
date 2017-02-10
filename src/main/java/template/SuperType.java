@@ -1,7 +1,9 @@
-import interfaces.ServiceProvide1;
-import interfaces.ServiceProvide2;
-import interfaces.ServiceRequire1;
-import interfaces.ServiceRequire2;
+package template;
+
+import template.interfaces.ServiceProvide1;
+import template.interfaces.ServiceProvide2;
+import template.interfaces.ServiceRequire1;
+import template.interfaces.ServiceRequire2;
 
 /**
  * Created by seb on 10/02/17.
